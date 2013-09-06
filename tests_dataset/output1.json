@@ -1,0 +1,16 @@
+{
+    "posts": [{
+        "id": "1",
+        "title": "Rails is Omakase",
+        "comments" : {
+            "href": "http://example.com/posts/1/comments"
+        }
+    }, {
+        "id": "2",
+        "title": "The Parley Letter",
+        "comments" : {
+            "href": "http://example.com/posts/2/comments"
+        }
+    }
+    ]
+}

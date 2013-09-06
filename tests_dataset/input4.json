@@ -1,0 +1,87 @@
+{
+    "links": {
+        "posts.author": {
+            "href": "http://example.com/people/{posts.author}",
+            "type": "author"
+        },
+        "posts.comments": {
+            "href": "http://example.com/comments/{posts.comments}",
+            "type": "comments"
+        }
+    },
+    "posts": [
+    {
+        "id": "1",
+        "title": "rails is omakase",
+        "links": {
+            "author": "9",
+            "comments": [
+                "1",
+            "2",
+            "3"
+                ]
+        }
+    },
+    {
+        "id": "2",
+        "title": "the parley letter",
+        "links": {
+            "author": "9",
+            "comments": [
+                "4",
+            "5"
+                ]
+        }
+    },
+    {
+        "id": "3",
+        "title": "Awesome & Fantastic title",
+        "links": {
+            "author": "10",
+            "comments": [
+                "6",
+				"7"
+                ]
+        }
+    }
+    ],
+        "author": [
+        {
+            "id": "9",
+            "name": "@d2h"
+        }, {
+            "id" : "10",
+            "name" : "@ngoles"
+        }
+    ],
+        "comments": [
+        {
+            "id": "1",
+            "body": "mmmmmakase"
+        },
+        {
+            "id": "2",
+            "body": "i prefer unagi"
+        },
+        {
+            "id": "3",
+            "body": "what's omakase?"
+        },
+        {
+            "id": "4",
+            "body": "parley is a discussion, especially one between enemies"
+        },
+        {
+            "id": "5",
+            "body": "the parsley letter"
+        },
+        {
+            "id": "6",
+            "body": "dependency injection is not a vice"
+        },
+        {
+            "id": "7",
+            "body": "awesome & fantastic comment 2"
+        }
+    ]
+}

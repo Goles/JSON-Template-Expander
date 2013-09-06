@@ -1,0 +1,72 @@
+{
+    "posts": [
+        {
+            "id": "1",
+            "title": "rails is omakase",
+            "author": {
+                "name": "@d2h",
+				"id": "9",
+                "href": "http://example.com/people/9"
+            },
+            "comments": [
+                {
+                    "href": "http://example.com/comments/1",
+                    "id": "1",
+                    "body": "mmmmmakase"
+                },
+                {
+                    "href": "http://example.com/comments/2",
+                    "id": "2",
+                    "body": "i prefer unagi"
+                },
+                {
+                    "href": "http://example.com/comments/3",
+                    "id": "3",
+                    "body": "what's omakase?"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "the parley letter",
+            "author": {
+                "name": "@d2h",
+				"id": "9",
+                "href": "http://example.com/people/9"
+            },
+            "comments": [
+                {
+                    "href": "http://example.com/comments/4",
+                    "id": "4",
+                    "body": "parley is a discussion, especially one between enemies"
+                },
+                {
+                    "href": "http://example.com/comments/5",
+                    "id": "5",
+                    "body": "the parsley letter"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Awesome & Fantastic title",
+            "author": {
+                "name": "@ngoles",
+				"id": "10",
+                "href": "http://example.com/people/10"
+            },
+            "comments": [
+                {
+                    "href": "http://example.com/comments/6",
+                    "id": "6",
+                    "body": "dependency injection is not a vice"
+                },
+                {
+                    "href": "http://example.com/comments/7",
+                    "id": "7",
+                    "body": "awesome & fantastic comment 2"
+                }
+            ]
+        }
+    ]
+}

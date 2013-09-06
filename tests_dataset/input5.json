@@ -1,0 +1,23 @@
+{
+    "links": {
+        "sessions.users": {
+            "href": "/users/{users.id}",
+            "type": "users"
+        },
+        "sessions.testkey": {
+            "href": "/testkey/{users.fullname}",
+            "type": "users"
+        },
+        "users.collections": "/users/{users.id}/collections"
+    },
+    "sessions": [{
+        "links": {
+            "users": ["1"]
+        }
+    }],
+    "users": [{
+        "id": "1",
+        "username": "goles",
+        "full_name": "Nicolas Goles"
+    }]
+}

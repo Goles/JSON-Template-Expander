@@ -1,0 +1,26 @@
+{
+    "posts": [
+        {
+            "id": "1",
+            "title": "Rails is Omakase",
+            "comments": [
+                {
+                    "id": "1",
+                    "href": "http://example.com/comments/1"
+                },
+                {
+                    "id": "2",
+                    "href": "http://example.com/comments/2"
+                },
+                {
+                    "id": "3",
+                    "href": "http://example.com/comments/3"
+                },
+                {
+                    "id": "4",
+                    "href": "http://example.com/comments/4"
+                }
+            ]
+        }
+    ]
+}

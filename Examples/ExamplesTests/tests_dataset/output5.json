@@ -1,0 +1,17 @@
+{
+	"sessions": {
+		"users" : {
+		    "href": "/users/{users.id}",
+		    "type": "users"
+		},
+		"testkey": {
+		    "href": "/testkey/{users.fullname}",
+		    "type": "users"
+		}
+	},
+	"users" : {
+		"collections": {
+			"href": "/users/{users.id}/collections"
+		}
+	}
+}

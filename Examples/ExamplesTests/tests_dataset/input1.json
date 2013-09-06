@@ -1,0 +1,15 @@
+{
+    "links": {
+        "posts.comments": "http://example.com/posts/{posts.id}/comments"
+    },
+    "posts": [
+        {
+            "id": "1",
+            "title": "Rails is Omakase"
+        },
+        {
+            "id": "2",
+            "title": "The Parley Letter"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "posts": [{
+    "id": "1",
+    "title": "Rails is Omakase",
+    "author" : {
+      "id": "12",
+      "href" : "http://example.com/people/12"
+    }
+  }, {
+    "id": "2",
+    "title": "The Parley Letter",
+    "author" : {
+      "id": "12",
+      "href" : "http://example.com/people/12"
+    }
+  }, {
+    "id": "3",
+    "title": "Dependency Injection is Not a Virtue",
+    "author" : {
+      "id": "12",
+      "href" : "http://example.com/people/12"
+    }
+  }]
+}
